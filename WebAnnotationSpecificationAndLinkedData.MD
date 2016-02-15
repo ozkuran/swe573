@@ -14,11 +14,11 @@
 
 ## 1. Introduction <a id="1.introduction"></a>
 
-Annotations are simply comments that helps differentiation between same type of objects. In the digital world from tags on the pictures that shared on the [Instagram] (https://www.instagram.com/) to mentions in a tweet there are many types of data annotations present. [World Wide Web Consotium (W3C)] (https://www.w3.org/) took the initiative on standardizing the annotations on the web with [Web Annotation Specification] (https://www.w3.org/TR/annotation-model/).
+Annotations are simply comments that helps differentiation between same type of objects. In the digital world from tags on the pictures that shared on the [Instagram] (https://www.instagram.com/) to mentions in a tweet there are many types of data annotations present. [World Wide Web Consortium (W3C)] (https://www.w3.org/) took the initiative on standardizing the annotations on the web with [Web Annotation Specification] (https://www.w3.org/TR/annotation-model/).
 
 ### 1.1 Web Annotation Specification <a id="1.1.webannotationspecification"></a>
 
-Web Annotation specification provides a simple framework for sharing annotations among different platforms. As it provides option for giving simple text annotation on a single web page, it has also plenty options for creating rich annotations.
+Web Annotation specification provides a simple framework for sharing annotations among different platforms. As it provides option for giving simple text annotation on a single web page, it has also plenty options for creating rich annotations. In  Web annotation data model an annotation is a considered as set of connected resources -which are a `body` and a `target`- where information in the body is related the target. 
 
 ### 1.2 Linked Data <a id="1.2.linkeddata"></a>
 
