@@ -19,3 +19,12 @@ Annotations are simply comments that helps differentiation between same type of 
 ### 1.1 Web Annotation Specification <a id="1.1.webannotationspecification"></a>
 
 ### 1.2 Linked Data <a id="1.2.linkeddata"></a>
+
+
+### References
+
+[1]<a id="reference1"></a> <https://www.w3.org/TR/annotation-model/>
+
+[2]<a id="reference2"></a> <https://www.w3.org/standards/semanticweb/data/>
+
+
