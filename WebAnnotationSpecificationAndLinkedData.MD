@@ -25,6 +25,6 @@ Annotations are simply comments that helps differentiation between same type of 
 
 [1]<a id="reference1"></a> <https://www.w3.org/TR/annotation-model/>
 
-[2]<a id="reference2"></a> <https://www.w3.org/standards/semanticweb/data/>
+[2]<a id="reference2"></a> <https://www.w3.org/standards/semanticweb/data>
 
 
