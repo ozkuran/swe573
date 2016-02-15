@@ -18,6 +18,8 @@ Annotations are simply comments that helps differentiation between same type of 
 
 ### 1.1 Web Annotation Specification <a id="1.1.webannotationspecification"></a>
 
+Web Annotation specification provides a simple framework for sharing annotations among different platforms. As it provides option for giving simple text annotation on a single web page, it has also plenty options for creating rich annotations.
+
 ### 1.2 Linked Data <a id="1.2.linkeddata"></a>
 
 
