@@ -32,10 +32,23 @@ Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semantic
 
 # 2. Web Annotation Specification <a id="2.webannotationspecification"></a>
 
+Accoding to the [Web Annotation Specification Document](https://www.w3.org/TR/annotation-model/) aim of the specifification is***"to provide a standard description model and format to enable annotations to be shared between systems."*** As if this interoperability succeeded Web Annotation Data Model would be a single data model that would be used every party that interested in. 
+
+According to the [document](https://www.w3.org/TR/annotation-model/) The Web Annotation Data Model is defined using the following basic principles;
+
+1. An Annotation is a rooted, directed graph that represents a relationship between resources.
+2. There are two primary types of resource that participate in this relationship, Bodies and Targets.
+3. Annotations have 0 or more Bodies.
+4. Annotations have 1 or more Targets.
+5. The content of the Body resources is related to, and typically "about", the content of the Target resources.
+6. Annotations, Bodies and Targets may have their own properties and relationships, typically including creation and descriptive information.
+7. The intent behind the creation of an Annotation or the inclusion of a particular Body or Target is an important property and represented by a Motivation resource.
+
+with usage of those principles of guidelines we may describe a simple  [Annotation](https://www.w3.org/TR/annotation-model/#web-annotation-framework) as a web resource which has a single Body, which is described resource about itself, and a Target that a Body that somehow "**about**". A sample usage of the Web Annotation Data Model is [Linked Data](3.linkeddata) which is described below. For further information about Web Annotation Data Model you may visit its [web site](https://www.w3.org/TR/annotation-model/) at W3C.
 
 # 3. Linked Data <a id="3.linkeddata"></a>
 
-Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (Inventor of the World Wide Web) explains Linked Data as *"Like the web of hypertext, the web of data is constructed with documents on the web."* in his initial [document](https://www.w3.org/DesignIssues/LinkedData.html) dates back to 2006. He mentioned 4 concepts to be applied for Linked Data become reality. 
+Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (Inventor of the World Wide Web) explains Linked Data as ***"Like the web of hypertext, the web of data is constructed with documents on the web."*** in his initial [document](https://www.w3.org/DesignIssues/LinkedData.html) dates back to 2006. He mentioned 4 concepts to be applied for Linked Data become reality. 
 
 1. Use [URI](https://www.ietf.org/rfc/rfc3986.txt)s as names for things
 
