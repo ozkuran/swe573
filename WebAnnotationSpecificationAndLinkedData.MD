@@ -22,12 +22,21 @@ Web Annotation specification provides a simple framework for sharing annotations
 
 ### 1.2 Linked Data <a id="1.2.linkeddata"></a>
 
-Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semanticweb/) which can be described as collection of interrelated Data Sets on the web.
+Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semanticweb/) which can be described as collection of interrelated Data Sets on the web. Its purpose is to convert bilions of unrelated datasets into a world wide collection of data.
+
+# 2. Web Annotation Specification
+
+
+# 3. Linked Data
+
+Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (Inventor of the World Wide Web) explains Linked Data as *"Like the web of hypertext, the web of data is constructed with documents on the web."* in his initial [document](https://www.w3.org/DesignIssues/LinkedData.html) dates back to 2006. 
 
 ### References
 
 [1]<a id="reference1"></a> <https://www.w3.org/TR/annotation-model/>
 
 [2]<a id="reference2"></a> <https://www.w3.org/standards/semanticweb/data>
+
+[3]<a id="reference3"></a> <https://www.w3.org/DesignIssues/LinkedData.html>
 
 
