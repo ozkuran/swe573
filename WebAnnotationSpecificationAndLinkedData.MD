@@ -45,6 +45,8 @@ Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.o
 
 4. Include links to other URIs. so that they can discover more things.
 
+Those 4 rules listed above can be described as fundamental rules of the Linked Data. To Linked Data become useful in addition to this framework there are detailed requirements present. Detailed information about Linked Data might be found in W3C [website](https://www.w3.org/TR/2015/REC-ldp-20150226/).
+
 # 4. References <a id="4.references"></a>
 
 [1]<a id="reference1"></a> <https://www.w3.org/TR/annotation-model/>
