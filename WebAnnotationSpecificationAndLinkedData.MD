@@ -35,7 +35,15 @@ Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semantic
 
 # 3. Linked Data <a id="3.linkeddata"></a>
 
-Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (Inventor of the World Wide Web) explains Linked Data as *"Like the web of hypertext, the web of data is constructed with documents on the web."* in his initial [document](https://www.w3.org/DesignIssues/LinkedData.html) dates back to 2006. 
+Linked Data is seen as the future of the web. [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) (Inventor of the World Wide Web) explains Linked Data as *"Like the web of hypertext, the web of data is constructed with documents on the web."* in his initial [document](https://www.w3.org/DesignIssues/LinkedData.html) dates back to 2006. He mentioned 4 concepts to be applied for Linked Data become reality. 
+
+1. Use [URI](https://www.ietf.org/rfc/rfc3986.txt)s as names for things
+
+2. Use HTTP URIs so that people can look up those names.
+
+3. When someone looks up a URI, provide useful information, using the standards ([RDF](https://www.w3.org/RDF/), [SPARQL](https://www.w3.org/TR/2013/REC-sparql11-overview-20130321/))
+
+4. Include links to other URIs. so that they can discover more things.
 
 # 4. References <a id="4.references"></a>
 
