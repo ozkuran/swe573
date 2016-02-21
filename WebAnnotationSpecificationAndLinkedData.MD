@@ -22,7 +22,7 @@ Web Annotation specification provides a simple framework for sharing annotations
 
 ### 1.2 Linked Data <a id="1.2.linkeddata"></a>
 
-Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semanticweb/) which can be described as collesction of interrelated Data Sets on the web.
+Linked Data is heart of the [Semantic Web](https://www.w3.org/standards/semanticweb/) which can be described as collection of interrelated Data Sets on the web.
 
 ### References
 
