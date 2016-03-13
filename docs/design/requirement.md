@@ -34,3 +34,7 @@ Requirement analysis shows us we will develop a Web Based application which will
 20. Products can be sold in standardized weight or not.
 21. There will be categories for the products.
 22. Members can give information on themselves. What is their preferences on food.
+23. Email adresses must be @boun.edu.tr
+24. Help annoucements page required
+25. Member recommendation required
+26. Help announcements pages calendar must be readable without waiting on the day.
