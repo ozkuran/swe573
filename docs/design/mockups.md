@@ -17,3 +17,7 @@
 ### 4. Stock Page
 
 ![Stoklama Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/StokEkrani.png)
+
+### 5. Add Product Page
+
+![Ürün Ekleme Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/UrunEkleme.png)
