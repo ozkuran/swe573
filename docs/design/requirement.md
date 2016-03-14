@@ -36,8 +36,9 @@ Requirement analysis shows us we will develop a Web Based application which will
 18. Members would be defined as Operator or Administrator.
 19. Operators are users that can be **Cashier** or **Stocker**. 
 
+### II.I.II. Products
 
-1. Cashier will enter the products that member bought in the system. And there will be data mining for what bought with what. 
+1. Cashier will enter the products that Member bought in the system. there will be data mining for what bought with what. 
 2. Stocks will be held etc.
 3. Member history, producer history.
 9. All members would be a member. No need for login as administrator. 
