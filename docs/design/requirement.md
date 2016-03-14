@@ -12,24 +12,35 @@ Requirement analysis shows us we will develop a Web Based application which will
 
 ## II. Requirements
 
-### II.A. Functional Requirements
+### II.I. Functional Requirements
 
-### II.A.1. Users
+### II.I.I. Users
 
-1. There are 5 type of users. Members(Customers), Operators, Producers, Administrators and RootAdministrator.
+1. There are 4 type of users. Members(Customers), Operators, Administrators and RootAdministrator.
 2. Customers which are buy the products may be both Member and Non-Member. 
 3. Member customers will be have discounts. 
 4. Discounts will be parametric.
 5. Membership process could be initiated from Web Application.
 6. Members should pay fee to become member. (100 Liras) But Membership fee out of the systems scope so we should not follow it.
 7. Members should have an E-Mail address from boun.edu.tr domain.
-8. Membership should be activated by and Administrator.  Users can initiate mebership process by themselves.
-4. Cooperative producers will have one identity.
-5. Producers will be defined by the administrator. Administrators will be add the producers to the system. Producers did not do in the system. Producers are have no logins etc. 
-6. Cashier will enter the products that member bought in the system. And there will be data mining for what bought with what. 
-7. Stocks will be held etc.
-8. Member history, producer history.
-9. All members would be a member. No need for login as administrator. Administrator is a group and there may be multiple users that have administrator rights.
+8. Membership should be activated by and Administrator.
+9. Producers will be defined by the administrator.
+10. Producers are have no logins etc.
+11. Cooperative producers will have one identity.
+12. Members will have history.
+13. Operators will have history about both their sales and volunteerin actions.
+14. Administrators and RootAdministrator will have history too.
+15. Difference between Administrator and RootAdministrator is Administrators are a group and there may be multiple users that have administrator rights. 
+16. RootAdministrator is the Administrator that defined at the installation of the program.
+17. Administrators will be defined by RootAdministrator.
+18. Members would be defined as Operator or Administrator.
+19. Operators are users that can be **Cashier** or **Stocker**. 
+
+
+1. Cashier will enter the products that member bought in the system. And there will be data mining for what bought with what. 
+2. Stocks will be held etc.
+3. Member history, producer history.
+9. All members would be a member. No need for login as administrator. 
 10. Seller is another type of user with Seller rights.
 11. A simple decision support system for product stock levels. Reporting system like; What is on low level? What is sold most? etc.
 12. Volunteer system for required action like packaging etc. Seller slots.
