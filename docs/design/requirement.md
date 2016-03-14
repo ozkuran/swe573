@@ -8,15 +8,24 @@
 
 ## I. Introduction
 
-Requirement analysis shows us we will develop a Web Based application which will be used as a P.O.S. application for a Food Cooperative. 
+Requirement analysis shows us we will develop a Web Based application which will be used as a P.O.S. application for a Food Cooperative. Currently there is already a place in Campus that sells organic food from small organic food producers. The shop is operated by volunteers. No online selling or reservation option is present. Sales only made from sales place and only in cash.
 
 ## II. Requirements
 
-1. Customers can be both Member and Non-Member Customers. Member customers will be have discounts. Discounts will be parametric.
-2. Members are buyers. Members should pay fee to become member. (100 Liras???) Membership process will be activated by Administrator at some point. Membership fee out of the systems scope. Users can initiate mebership process by themselves.
-3. Cooperative producers will have one identity.
-4. Producers will be defined by the administrator. Administrators will be add the producers to the system. Producers did not do in the system. Producers are have no logins etc. 
-5. Summary of the project there is already place in Campus that sells organic food from cooperatives. And not already opened we should schedule selling times. No reservation, sales online; only from sales place. 
+### II.A. Functional Requirements
+
+### II.A.1. Users
+
+1. There are 5 type of users. Members(Customers), Operators, Producers, Administrators and RootAdministrator.
+2. Customers which are buy the products may be both Member and Non-Member. 
+3. Member customers will be have discounts. 
+4. Discounts will be parametric.
+5. Membership process could be initiated from Web Application.
+6. Members should pay fee to become member. (100 Liras) But Membership fee out of the systems scope so we should not follow it.
+7. Members should have an E-Mail address from boun.edu.tr domain.
+8. Membership should be activated by and Administrator.  Users can initiate mebership process by themselves.
+4. Cooperative producers will have one identity.
+5. Producers will be defined by the administrator. Administrators will be add the producers to the system. Producers did not do in the system. Producers are have no logins etc. 
 6. Cashier will enter the products that member bought in the system. And there will be data mining for what bought with what. 
 7. Stocks will be held etc.
 8. Member history, producer history.
