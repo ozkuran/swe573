@@ -38,7 +38,8 @@ Requirement analysis shows us we will develop a Web Based application which will
 
 ### II.I.II. Products
 
-1. Cashier will enter the products that Member bought in the system. there will be data mining for what bought with what. 
+1. Cashier will enter the products that Member bought in the system. 
+2. The sales data will be used for data mining. (Shopping Basket Analysis etc.) 
 2. Stocks will be held etc.
 3. Member history, producer history.
 9. All members would be a member. No need for login as administrator. 
