@@ -40,18 +40,22 @@ Requirement analysis shows us we will develop a Web Based application which will
 
 1. Cashier will enter the products that Member bought in the system. 
 2. The sales data will be used for data mining. (Shopping Basket Analysis etc.) 
-2. Stocks will be held etc.
-3. Member history, producer history.
-9. All members would be a member. No need for login as administrator. 
-10. Seller is another type of user with Seller rights.
-11. A simple decision support system for product stock levels. Reporting system like; What is on low level? What is sold most? etc.
-12. Volunteer system for required action like packaging etc. Seller slots.
-13. Members can be votes to products. comments on products.
-14. Everyone can see members and votes for products. You can onyle vote for products that you purchase. You may make comment on the product you dont bought (for questions etc.)
-15. Everytime you login you may see what you by and vote for the product.
-16. Events are seeing farms of the producers etc.
-17. Comments on events are can be seen by members.
-18. In Seller module it will help total sales and cost to complete cashier.
+3. Stocks will be held etc.
+4. Member history and producer history will be held.
+5. A simple decision support system for product stock levels. Reporting system like; What is on low level? What is sold most? etc.
+6. 
+
+### II.I.III. Organization
+
+1. Volunteer system for required action like packaging etc. Seller slots.
+2. Members can be vote on products they bought. 
+3. Members can comments on any product.(for questions etc.)
+4. Everyone can see members and votes for products. 
+5. Everytime you login you may see what you buy and vote for the product.
+6. Events must defined about visiting farms of the producers etc.
+7. Events may have comments.
+7. Comments on events are can be seen by members.
+8. In Seller module it will help total sales and cost to complete cashier.
 19. Same type of products from 2 different producers are different products.
 20. Products can be sold in standardized weight or not.
 21. There will be categories for the products.
