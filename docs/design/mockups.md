@@ -26,6 +26,6 @@
 
 ![Üretici Ekleme Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/UreticiEkleme.png)
 
-### 7. Add Producer Page
+### 7. Event Page
 
 ![Haber Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/HaberSayfasi.png)
