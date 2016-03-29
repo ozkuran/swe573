@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # Requirements Document
 
 **Created by Mahmut Ali ÖZKURAN**
 
-**13/03/2016**
+**29/03/2016**
 
-**Version 0.2**
+**Version 0.6**
 
 ## I. Introduction
 
@@ -105,4 +104,3 @@ Requirement analysis shows us we will develop a Web Based application which will
 14. Help annoucements page required
 15. Member recommendation required
 16. Help announcements pages calendar must be readable without clicking or staying over with mouse.
->>>>>>> origin/master
