@@ -21,3 +21,7 @@
 ### 5. Add Product Page
 
 ![Ürün Ekleme Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/UrunEkleme.png)
+
+### 6. Add Producer Page
+
+![Üretici Ekleme Sayfası](https://github.com/ozkuran/swe573/blob/master/docs/design/mockups/UreticiEkleme.png)
