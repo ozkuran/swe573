@@ -2,9 +2,9 @@
 
 **Created by Mahmut Ali ÖZKURAN**
 
-**13/03/2016**
+**29/03/2016**
 
-**Version 0.2**
+**Version 0.6**
 
 ## I. Introduction
 
@@ -43,7 +43,7 @@ Requirement analysis shows us we will develop a Web Based application which will
 3. Stocks will be held etc.
 4. Member history and producer history will be held.
 5. A simple decision support system for product stock levels. Reporting system like; What is on low level? What is sold most? etc.
-6. 
+
 
 ### II.I.III. Organization
 
@@ -54,13 +54,12 @@ Requirement analysis shows us we will develop a Web Based application which will
 5. Everytime you login you may see what you buy and vote for the product.
 6. Events must defined about visiting farms of the producers etc.
 7. Events may have comments.
-7. Comments on events are can be seen by members.
-8. In Seller module it will help total sales and cost to complete cashier.
-19. Same type of products from 2 different producers are different products.
-20. Products can be sold in standardized weight or not.
-21. There will be categories for the products.
-22. Members can give information on themselves. What is their preferences on food.
-23. Email adresses must be @boun.edu.tr
-24. Help annoucements page required
-25. Member recommendation required
-26. Help announcements pages calendar must be readable without waiting on the day.
+8. Comments on events are can be seen by members.
+9. In Seller module it will help total sales and cost to complete cashier.
+10. Same type of products from 2 different producers are different products.
+11. Products can be sold in standardized weight or not.
+12. There will be categories for the products.
+13. Members can give information on themselves. What is their preferences on food.
+14. Help annoucements page required
+15. Member recommendation required
+16. Help announcements pages calendar must be readable without clicking or staying over with mouse.
