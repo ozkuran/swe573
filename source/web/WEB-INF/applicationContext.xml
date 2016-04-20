@@ -3,4 +3,28 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="annotatedClasses">
+            <list>
+                <value>dto.EventsEntity</value>
+                <value>dto.EventtypesEntity</value>
+                <value>dto.MembersEntity</value>
+                <value>dto.MembertypesEntity</value>
+                <value>dto.PricesEntity</value>
+                <value>dto.ProducersEntity</value>
+                <value>dto.ProductsEntity</value>
+                <value>dto.ProducttypesEntity</value>
+                <value>dto.StocksEntity</value>
+                <value>dto.TransactiondetailsEntity</value>
+                <value>dto.TransactionsEntity</value>
+                <value>dto.UnitsEntity</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/bukoop</prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
+            </props>
+        </property>
+    </bean>
 </beans>
