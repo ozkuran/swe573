@@ -25,9 +25,15 @@
       </div>
       <div class="row">
           <ul class="nav nav-tabs">
-              <li role="presentation" class="active"><a href="#">Saved</a></li>
-              <li role="presentation"><a href="#">Submitted</a></li>
-              <li role="presentation"><a href="#">Approved</a></li>
+              <li role="presentation" class="active"><a href="#">Ana Sayfa</a></li>
+              <li role="presentation"><a href="#">Hakkımızda</a></li>
+              <li role="presentation"><a href="#">Bültenler</a></li>
+              <li role="presentation"><a href="#">Üreticiler</a></li>
+              <li role="presentation"><a href="#">Ürünler</a></li>
+              <li role="presentation"><a href="#">Haberler</a></li>
+              <li role="presentation"><a href="#">Yazılar</a></li>
+              <li role="presentation"><a href="#">S.S.S.</a></li>
+              <li role="presentation"><a href="#">İletişim</a></li>
           </ul>
       </div>
       <div class="row">
