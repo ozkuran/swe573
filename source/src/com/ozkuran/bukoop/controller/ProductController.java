@@ -22,6 +22,6 @@ public class ProductController {
         public String getAllEmployees(Model model)
         {
             model.addAttribute("products", manager.getAllProducts());
-            return "productsListDisplay";
+            return "displayProductsList";
         }
 }
