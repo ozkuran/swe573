@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bukoop.iml" filepath="$PROJECT_DIR$/bukoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bukoop.iml" filepath="$PROJECT_DIR$/.idea/modules/bukoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bukoop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bukoop_main.iml" group="bukoop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bukoop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bukoop_test.iml" group="bukoop" />
     </modules>
   </component>
 </project>

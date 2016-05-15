@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - bukoop@mysql.ozkuran.com" uuid="8a76f23b-7d3c-4ad5-aa77-4c5230af90b1">
+      <secret-storage>memory</secret-storage>
+      <user-name>bukoop</user-name>
+      <schema-pattern>bukoop.*</schema-pattern>
+      <default-schemas>bukoop.*</default-schemas>
+    </data-source>
+  </component>
+</project>
