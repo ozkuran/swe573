@@ -548,4 +548,7 @@
       </key>
     </database-model>
   </data-source>
+  <data-source name="MySQL - bukoop2@mysql.ozkuran.com" uuid="7461909c-1bc3-4bb1-94f3-542125d860b8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

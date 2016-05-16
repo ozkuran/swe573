@@ -1,6 +1,6 @@
 package com.ozkuran.controller;
 
-import com.ozkuran.dao.ProductDAO;
+import com.ozkuran.dto.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ProductController {
 
-    @Autowired
-    private ProductDAO product;
 
 
     @RequestMapping("/product")
