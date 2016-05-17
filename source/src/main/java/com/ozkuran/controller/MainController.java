@@ -18,12 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-    @Autowired
-    private ProductRepository repo;
-
     @RequestMapping("/")
     public String hello(@RequestParam(defaultValue = "world") String name,Model model){
-        repo.save(new Product("Yeşil Zeytin",new ProductType("Zeytin"),new Packaging("Kavanoz"),new Producer("Mahmut Ağa")));
         model.addAttribute("message", "Hello, from BUKOOP Application " + name);
         return "resultPage";
     }
