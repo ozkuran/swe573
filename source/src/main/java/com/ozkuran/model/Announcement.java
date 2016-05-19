@@ -1,9 +1,13 @@
 package com.ozkuran.model;
 
+import org.hibernate.annotations.Type;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
@@ -28,6 +32,7 @@ public class Announcement {
 
     @NotNull
     @NotEmpty
+    @Type(type="text")
     private String content;
 
     public Integer getId() {

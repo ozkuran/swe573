@@ -1,7 +1,7 @@
 package com.ozkuran.repositories;
 
 import com.ozkuran.model.Announcement;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface AnnouncementRepository extends CrudRepository<Announcement, Integer>{
+public interface AnnouncementRepository extends JpaRepository<Announcement, Integer> {
 }

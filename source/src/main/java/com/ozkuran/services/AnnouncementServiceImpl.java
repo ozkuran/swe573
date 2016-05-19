@@ -3,6 +3,9 @@ package com.ozkuran.services;
 import com.ozkuran.model.Announcement;
 import com.ozkuran.repositories.AnnouncementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 /**
@@ -13,9 +16,18 @@ import org.springframework.stereotype.Service;
 public class AnnouncementServiceImpl implements AnnouncementService {
     private AnnouncementRepository announcementRepository;
 
+    private static final int ANNOUNCEMENT_PAGE_SIZE = 4;
+
+
     @Autowired
     public void setProductRepository(AnnouncementRepository announcementRepository) {
         this.announcementRepository = announcementRepository;
+    }
+
+    @Override
+    public Page<Announcement> getLatestAnnouncements(){
+        PageRequest pageRequest = new PageRequest(0, ANNOUNCEMENT_PAGE_SIZE, Sort.Direction.DESC, "id");
+        return announcementRepository.findAll(pageRequest);
     }
 
     @Override

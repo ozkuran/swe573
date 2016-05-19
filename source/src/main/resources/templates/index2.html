@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, maximum-scale=1"/>
@@ -47,7 +47,7 @@
             <ul class="we-create animated fadeInUp delay-1s">
                 <li>Bogaziçi Mensupları Tarım Kooperatifi</li>
             </ul>
-            <a class="link animated fadeInUp delay-1s" href="#service">Baslayin</a>
+            <a class="link animated fadeInUp delay-1s" href="#haberler">Baslayin</a>
         </div>
     </header>
 </div>
@@ -58,7 +58,7 @@
     <div class="container">
         <ul class="main-nav">
             <li><a href="#header">Home</a></li>
-            <li><a href="#service">Services</a></li>
+            <li><a href="#haberler">Services</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
             <li class="small-logo"><a href="#header"><img src="img2/small-logo.png" alt=""/></a></li>
             <li><a href="#client">Clients</a></li>
@@ -71,46 +71,19 @@
 
 
 
-<section class="main-section" id="service"><!--main-section-start-->
+<section class="main-section" id="haberler"><!--main-section-start-->
     <div class="container">
-        <h2>Services</h2>
-        <h6>We offer exceptional service with complimentary hugs.</h6>
-        <div class="row">
+        <h2>Haberler</h2>
+        <h6>BÜKOOP ve Doğal Yaşam Hakkında Haberler.</h6>
+        <div class="row" th:each="announcement : ${latestannouncements}">
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <i class="fa-paw"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>branding &amp; identity</h3>
-                        <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <i class="fa-gear"></i>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>web development</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <i class="fa-apple"></i>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>mobile design</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <i class="fa-medkit"></i>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>24/7 Support</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                        <h3><span th:text="${announcement.title}">text</span></h3>
+                        <p><span th:text="${announcement.content}">text</span></p>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@ package com.ozkuran.controller;
 import com.ozkuran.model.Announcement;
 import com.ozkuran.services.AnnouncementService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +27,13 @@ public class AnnouncementController {
     public String list(Model model){
         model.addAttribute("announcements", announcementService.listAllAnnouncements());
         return "announcements";
+    }
+
+    @RequestMapping(value = "/latestannouncements", method = RequestMethod.GET)
+    public String getLatestAnnouncements(Model model){
+        Page<Announcement> page = announcementService.getLatestAnnouncements();
+        model.addAttribute("latestannouncements", page.getContent());
+        return "latestannouncements";
     }
 
     @RequestMapping("announcement/{id}")
