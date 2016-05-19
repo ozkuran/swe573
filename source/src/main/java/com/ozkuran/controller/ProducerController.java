@@ -1,7 +1,6 @@
 package com.ozkuran.controller;
 
 import com.ozkuran.model.Producer;
-import com.ozkuran.model.Product;
 import com.ozkuran.services.ProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,19 +24,19 @@ public class ProducerController {
     @RequestMapping(value = "/producers", method = RequestMethod.GET)
     public String list(Model model){
         model.addAttribute("products", producerService.listAllProducers());
-        return "products";
+        return "producers";
     }
 
     @RequestMapping("producer/{id}")
     public String showProduct(@PathVariable Integer id, Model model){
         model.addAttribute("product", producerService.getProducerById(id));
-        return "product";
+        return "producer";
     }
 
     @RequestMapping("producer/edit/{id}")
     public String edit(@PathVariable Integer id, Model model){
         model.addAttribute("producer", producerService.getProducerById(id));
-        return "productform";
+        return "producerform";
     }
 
     @RequestMapping("producer/new")

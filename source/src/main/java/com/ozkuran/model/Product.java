@@ -28,6 +28,9 @@ public class Product {
     @ManyToOne
     private ProductType productType;
 
+    @ManyToOne
+    private TransactionDetail transactionDetail;
+
     public Producer getProducer() {
         return producer;
     }
@@ -84,4 +87,6 @@ public class Product {
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
+
+
 }
