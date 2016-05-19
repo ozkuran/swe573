@@ -1,0 +1,4 @@
+com\ozkuran\config\SpringWebConfig.class
+com\ozkuran\controller\MainController.class
+com\ozkuran\config\SpringRootConfig.class
+com\ozkuran\BukoopApplication.class

@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="429871177">
-    <data-source source="LOCAL" name="MySQL - bukoop@mysql.ozkuran.com" uuid="8a76f23b-7d3c-4ad5-aa77-4c5230af90b1">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://mysql.ozkuran.com:3306/bukoop</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="MySQL - bukoop2@mysql.ozkuran.com" uuid="7461909c-1bc3-4bb1-94f3-542125d860b8">
+  <component name="DataSourceManagerImpl" format="xml" hash="707268701">
+    <data-source source="LOCAL" name="MySQL - bukoop2@mysql.ozkuran.com" uuid="8d8a7a47-a460-4110-bdb7-98de816ea3dd">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

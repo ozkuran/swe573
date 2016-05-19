@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/source.iml" filepath="$PROJECT_DIR$/.idea/modules/source.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/source_main.iml" filepath="$PROJECT_DIR$/.idea/modules/source_main.iml" group="source" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/source_test.iml" filepath="$PROJECT_DIR$/.idea/modules/source_test.iml" group="source" />
+      <module fileurl="file://$PROJECT_DIR$/bukoop.iml" filepath="$PROJECT_DIR$/bukoop.iml" />
     </modules>
   </component>
 </project>

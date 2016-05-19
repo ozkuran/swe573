@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: antlr:antlr:2.7.7">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar" />
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-classic:1.1.7">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar" />
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-core:1.1.7">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml:classmate:1.3.0">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.0/183407ff982e9375f1a1c4a51ed0a9307c598fc7/classmate-1.3.0.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.7.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.3/e250c11c1329c7b6b62442a9743befad78be553c/jackson-annotations-2.7.3.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.3/1499b854ae9f370409792db5af1b552dc7d9682f/jackson-core-2.7.3.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.3/f12e6cd05cbaecd74d16e685d45b627732939e42/jackson-databind-2.7.3.jar" />
+  </library>
+  <library name="Gradle: com.jayway.jsonpath:json-path:2.2.0">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar" />
+  </library>
+  <library name="Gradle: dom4j:dom4j:1.6.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Gradle: javax.transaction:javax.transaction-api:1.2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar" />
+  </library>
+  <library name="Gradle: javax.validation:validation-api:1.1.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" />
+  </library>
+  <library name="Gradle: junit:junit:4.12">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" />
+  </library>
+  <library name="Gradle: mysql:mysql-connector-java:5.1.38">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/dbbd7cd309ce167ec8367de4e41c63c2c8593cc5/mysql-connector-java-5.1.38.jar" />
+  </library>
+  <library name="Gradle: net.minidev:accessors-smart:1.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar" />
+  </library>
+  <library name="Gradle: net.minidev:json-smart:2.2.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar" />
+  </library>
+  <library name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.3.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect/1.3.3/a58f248ee7c556265c49df466a6071956389c9ab/thymeleaf-layout-dialect-1.3.3.jar" />
+  </library>
+  <library name="Gradle: ognl:ognl:3.0.8">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.0.8/37e1aebfde7eb7baebc9ad4f85116ef9009c5fc5/ognl-3.0.8.jar" />
+  </library>
+  <library name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1/aabab3165b8ea936b9360abbf448459c0d04a5a4/geronimo-jta_1.1_spec-1.1.1.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.33/4e7f547fbb2c364cb5e02a58790c5fb89e31efed/tomcat-embed-core-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.33/31423f2d493cf1f7cf5f0082c9f94640e93b8c1b/tomcat-embed-el-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.33/66bc309e0227c1ba2cf4417182d0b1583003d24b/tomcat-embed-logging-juli-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.33/be1f95e5d9ae00f9bc6138441d29cfe5c7c60256/tomcat-embed-websocket-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat:tomcat-jdbc:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.0.33/7f1b6d609f9c2e045e8d7759e96605841fffdf82/tomcat-jdbc-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.apache.tomcat:tomcat-juli:8.0.33">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.0.33/330aecfa895156cea91c576cb6609537152761f9/tomcat-juli-8.0.33.jar" />
+  </library>
+  <library name="Gradle: org.aspectj:aspectjweaver:1.8.9">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar" />
+  </library>
+  <library name="Gradle: org.assertj:assertj-core:2.4.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.4.1/59d2e0df335341f201e9c9f7354ae3d040950d23/assertj-core-2.4.1.jar" />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy:2.4.6">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.6/844cb06c553a5e6a736f44aa2b67d25bf6a34fde/groovy-2.4.6.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-library:1.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar" />
+  </library>
+  <library name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar" />
+  </library>
+  <library name="Gradle: org.hibernate:hibernate-core:5.1.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.0.Final/1b5ac619df76cfd67222ca7cddcee6b0a5db8d0c/hibernate-core-5.1.0.Final.jar" />
+  </library>
+  <library name="Gradle: org.hibernate:hibernate-entitymanager:5.1.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.1.0.Final/30d9f676363010b0958c9b738abc197235766f9c/hibernate-entitymanager-5.1.0.Final.jar" />
+  </library>
+  <library name="Gradle: org.hibernate:hibernate-validator:5.1.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar" />
+  </library>
+  <library name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+  </library>
+  <library name="Gradle: org.javassist:javassist:3.18.1-GA">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar" />
+  </library>
+  <library name="Gradle: org.jboss:jandex:2.0.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar" />
+  </library>
+  <library name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar" />
+  </library>
+  <library name="Gradle: org.json:json:20140107">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar" />
+  </library>
+  <library name="Gradle: org.mockito:mockito-core:1.10.19">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar" />
+  </library>
+  <library name="Gradle: org.objenesis:objenesis:2.1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar" />
+  </library>
+  <library name="Gradle: org.ow2.asm:asm:5.0.3">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar" />
+  </library>
+  <library name="Gradle: org.skyscreamer:jsonassert:1.3.0">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/d5c250eb122496866de36dc84f98e2945845ecdd/jsonassert-1.3.0.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.21">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:slf4j-api:1.7.21">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.0.M2/aa9afee56d0c0b87e2efb8d4279a5e149b0c6652/spring-boot-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.0.M2/ec4dae4328e3d8d1ed9d5210d7f9553308f555b6/spring-boot-autoconfigure-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.0.M2/e5c22b9d3ce2d80ea647ea189ddde280053bcb20/spring-boot-starter-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.0.M2/f038b68df8c13f78a0b217fcd2688ae7f1913912/spring-boot-starter-aop-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.0.M2/5bb560baf8097a579a444c1bc0e5351215eda9f/spring-boot-starter-data-jpa-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.0.M2/68c7ba55aa6efba27b1d60819cdf782d3c310149/spring-boot-starter-jdbc-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.0.M2/140408a08cc10bd139c7c8caa2c9adc5f198d446/spring-boot-starter-logging-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-test:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.0.M2/c970917cfa80fbffbf06925d03e9a163bd598b3f/spring-boot-starter-test-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.4.0.M2/a114246b909134dc33d890b24a8817011687c2a4/spring-boot-starter-thymeleaf-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.0.M2/bf822022a429cc87f089d2c40791cb0a806ea5a2/spring-boot-starter-tomcat-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.0.M2/7d74cc075343bd838e66b48fd6655f14ecc763f4/spring-boot-starter-web-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.0.M2/e5e01128639f2927c7d1800d3b98344d58d51df5/spring-boot-test-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:1.4.0.M2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.0.M2/2a693ae96702b9a2097172a833dbc6af16c92fb/spring-boot-test-autoconfigure-1.4.0.M2.jar" />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-commons:1.12.1.RELEASE">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.1.RELEASE/f6042d4400a43e687ac090d6ffd22b0e1f23d02a/spring-data-commons-1.12.1.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-jpa:1.10.1.RELEASE">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.1.RELEASE/b13fcaf6560a8593631accf21f59e6230c069caf/spring-data-jpa-1.10.1.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-aop:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.0.RC1/2faa59d10fadf4a869d3b25977d5e31da4692d3a/spring-aop-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-aspects:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.0.RC1/8fe4ee859010400f0e9146f563fe50eae0b7232b/spring-aspects-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-beans:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.0.RC1/3fc783bd383ca487b8511fcd5b1b877ea9cd86bc/spring-beans-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-context:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.0.RC1/e4127383ac6a47dca45d44bf5c4184fc26e5d17a/spring-context-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-core:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.0.RC1/bb23549705441fe5635a5a53a734033765bd69cc/spring-core-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-expression:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.0.RC1/65b614155fb4feb9ca6844b2e98b0131fbc9ea49/spring-expression-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-jdbc:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.0.RC1/3167d0f2f499771f79f2adcbf64e1cf040fb225f/spring-jdbc-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-orm:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.0.RC1/fcc58e2759a473272be0469ae2b29d4009fb0a26/spring-orm-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-test:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.0.RC1/a38298055485f09338b09264f7925daac0785b39/spring-test-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-tx:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.0.RC1/83a302f34bea3091803e574ebd3c3cce14400e25/spring-tx-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-web:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.0.RC1/b6946e9e6736938952b3841d0e4afdf89e9c09b/spring-web-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-webmvc:4.3.0.RC1">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.0.RC1/bbef1855ad6ab4f8dc7ab1a3359851f487b404e5/spring-webmvc-4.3.0.RC1.jar" />
+  </library>
+  <library name="Gradle: org.thymeleaf:thymeleaf:2.1.4.RELEASE">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/2.1.4.RELEASE/a730d892f3c57ba3d24af2ca657b42d81398a85a/thymeleaf-2.1.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.thymeleaf:thymeleaf-spring4:2.1.4.RELEASE">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring4/2.1.4.RELEASE/e5677e7daedfd05e001945abf4295305ac23826b/thymeleaf-spring4-2.1.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.unbescape:unbescape:1.1.0.RELEASE">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.0.RELEASE/ab0db4fe0a6fa89fb8da2a40008a4e63a7f3f5b9/unbescape-1.1.0.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.yaml:snakeyaml:1.17">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar" />
+  </library>
+  <library name="Gradle: xml-apis:xml-apis:1.0.b2">
+    <archive path="C:/Users/MahmutAli/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" />
+  </library>
+  <library name="commons-logging:commons-logging:1.2">
+    <archive path="C:/Users/MahmutAli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Node.js v0.10.26 Core Modules" />
+  <library name="Python 2.7.8 (D:\Python27\python.exe) interpreter library">
+    <archive path="D:/Python27/Lib/site-packages/setuptools-1.1.5-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/pip-1.4.1-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/sphinx-1.3b1-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/colorama-0.3.2-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/babel-1.3-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/snowballstemmer-1.2.0-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/docutils-0.12-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/pygments-2.0.1-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/jinja2-2.7.3-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/six-1.8.0-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/pytz-2014.10-py2.7.egg" />
+    <archive path="D:/Python27/Lib/site-packages/markupsafe-0.23-py2.7.egg" />
+    <archive path="D:/Python27/DLLs" />
+    <archive path="D:/Python27/Lib" />
+    <archive path="D:/Python27/Lib/lib-tk" />
+    <archive path="D:/Python27" />
+    <archive path="D:/Python27/Lib/site-packages" />
+  </library>
+  <library name="Python 3.4.1 (D:\Python34\python.exe) interpreter library">
+    <archive path="D:/Python34/DLLs" />
+    <archive path="D:/Python34/Lib" />
+    <archive path="D:/Python34" />
+    <archive path="D:/Python34/Lib/site-packages" />
+  </library>
+</eclipse-userlibraries>
+
