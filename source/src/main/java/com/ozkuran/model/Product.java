@@ -25,6 +25,9 @@ public class Product {
     @ManyToOne
     private PackageType packageType;
 
+    @ManyToOne
+    private ProductType productType;
+
     public Producer getProducer() {
         return producer;
     }
