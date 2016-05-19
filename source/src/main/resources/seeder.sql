@@ -23,3 +23,8 @@ INSERT INTO product_type (id, name)
      VALUES (4,"süt");
 
 
+INSERT INTO package_type (id, name)
+     VALUES (1, "kavanoz");
+
+INSERT INTO package_type (id, name)
+     VALUES (2, "vakumlu poset");

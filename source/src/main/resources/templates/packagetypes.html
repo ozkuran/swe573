@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Package Types</title>
+</head>
+<body>
+<div class="packagetypes">
+
+    <h2>List of Package Types</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="packagetype : ${packagetypelist}">
+            <td th:text="${packagetype.id}">1</td>
+            <td th:text="${packagetype.name}">Text ...</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

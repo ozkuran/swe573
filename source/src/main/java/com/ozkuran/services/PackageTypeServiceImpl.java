@@ -15,12 +15,12 @@ public class PackageTypeServiceImpl implements PackageTypeService {
     private PackageTypeRepository packageTypeRepository;
 
     @Autowired
-    public void setProductRepository(PackageTypeRepository packageTypeRepository) {
-        this.packageTypeRepository = packageTypeRepository;
+    public void setPackageTypeRepository(PackageTypeRepository packagetypeRepository) {
+        this.packageTypeRepository = packagetypeRepository;
     }
 
     @Override
-    public Iterable<PackageType> listAllPackageType() {
+    public Iterable<PackageType> listAllPackageTypes() {
         return packageTypeRepository.findAll();
     }
 

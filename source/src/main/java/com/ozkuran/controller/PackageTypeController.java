@@ -24,7 +24,8 @@ public class PackageTypeController {
 
     @RequestMapping(value = "/packagetypes", method = RequestMethod.GET)
     public String list(Model model){
-        model.addAttribute("packagetypes", packagetypeService.listAllPackageType());
+        Iterable<PackageType> ptlist = packagetypeService.listAllPackageTypes();
+        model.addAttribute("packagetypelist", ptlist);
         return "packagetypes";
     }
 

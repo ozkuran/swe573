@@ -7,7 +7,7 @@ import com.ozkuran.model.PackageType;
  * Created by MahmutAli on 5/19/2016.
  */
 public interface PackageTypeService {
-    Iterable<PackageType> listAllPackageType();
+    Iterable<PackageType> listAllPackageTypes();
 
     PackageType getPackageTypeById(Integer id);
 
