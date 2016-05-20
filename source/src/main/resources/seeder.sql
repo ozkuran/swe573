@@ -10,6 +10,7 @@ INSERT INTO role (id, name)
 INSERT INTO role (id, name)
      VALUES (4,"nonmember");
 
+DELETE FROM product_type;
 INSERT INTO product_type (id, name)
      VALUES (1,"zeytin");
 
@@ -20,7 +21,7 @@ INSERT INTO product_type (id, name)
      VALUES (3,"tursu");
 
 INSERT INTO product_type (id, name)
-     VALUES (4,"süt");
+     VALUES (4,"sut");
 
 DELETE FROM package_type;
 INSERT INTO package_type (id, name)
@@ -77,5 +78,15 @@ VALUES (6, "Cevat Öztel", "images/farm006.jpg");
 
 DELETE FROM product;
 
-INSERT INTO product (id,package_type_id,producer_id,product_type_id,photourl,price)
+INSERT INTO product (id,description, package_type_id,producer_id,product_type_id,photourl,price)
+    VALUES (1,"Siyah Zeytin",1,1,1,"images/blackolive.jpg",10);
+
+INSERT INTO product (id,description, package_type_id,producer_id,product_type_id,photourl,price)
+VALUES (2,"Yeşil Zeytin",1,1,1,"images/greenolive.jpg",10);
+
+INSERT INTO product (id,description, package_type_id,producer_id,product_type_id,photourl,price)
+VALUES (3,"Süt",1,2,4,"images/milk.jpg",10);
+
+INSERT INTO product (id,description, package_type_id,producer_id,product_type_id,photourl,price)
+VALUES (4,"Süt",2,3,4,"images/blackolive.jpg",10);
 

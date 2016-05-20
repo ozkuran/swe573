@@ -321,19 +321,19 @@ color: #fff;
 }
 
 
-/* Portfolio
+/* Product
 ---------------------------------*/
-.Portfolio-nav{
+.Product-nav{
 	padding:0;
 	margin:0 0 45px 0;
 	list-style:none;
 	text-align:center;
 }
-.Portfolio-nav li{
+.Product-nav li{
 	margin:0 10px;
 	display:inline;
 }
-.Portfolio-nav li a{
+.Product-nav li a{
 	display:inline-block;
 	padding:10px 22px;
 	font-size:12px;
@@ -348,18 +348,18 @@ color: #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
-.Portfolio-nav li a:hover{
+.Product-nav li a:hover{
 	background:#7cc576;
 	color:#fff;
 	text-decoration:none;
 }
 
-.portfolioContainer{
+.productContainer{
 	margin:0 auto;
 	padding-left:15px;
 }
 
-.Portfolio-box{
+.Product-box{
 	text-align:center;
 	margin-bottom:30px;
 	height:350px;
@@ -368,22 +368,87 @@ color: #fff;
 	float:left;
 	padding:0;
 }
-.Portfolio-box img{
+.Product-box img{
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;	
+	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.Portfolio-box img:hover {
+.Product-box img:hover {
 	opacity: 0.6;
 }
 
-.Portfolio-nav li a.current{
+.Product-nav li a.current{
 	background:#7cc576;
 	color:#fff;
 	text-decoration:none;
 }
+
+/* Producer
+---------------------------------*/
+.Producer-nav{
+	padding:0;
+	margin:0 0 45px 0;
+	list-style:none;
+	text-align:center;
+}
+.Producer-nav li{
+	margin:0 10px;
+	display:inline;
+}
+.Producer-nav li a{
+	display:inline-block;
+	padding:10px 22px;
+	font-size:12px;
+	line-height:20px;
+	color:#222222;
+	border-radius:4px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	background:#f7f7f7;
+	margin-bottom:5px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.Producer-nav li a:hover{
+	background:#7cc576;
+	color:#fff;
+	text-decoration:none;
+}
+
+.producerContainer{
+	margin:0 auto;
+	padding-left:15px;
+}
+
+.Producer-box{
+	text-align:center;
+	margin-bottom:30px;
+	height:350px;
+	width:350px;
+	overflow:hidden;
+	float:left;
+	padding:0;
+}
+.Producer-box img{
+	margin-bottom:25px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.Producer-box img:hover {
+	opacity: 0.6;
+}
+
+.Producer-nav li a.current{
+	background:#7cc576;
+	color:#fff;
+	text-decoration:none;
+}
+
 img {
    max-width:100%;
 }
@@ -795,7 +860,11 @@ border: 2px solid #fff;
 	color: #7cc576 !important;
 }
 
-.portfolioContainer{
+.productContainer{
+	max-width: 1140px;
+}
+
+.producerContainer{
 	max-width: 1140px;
 }
 

@@ -1,7 +1,9 @@
 package com.ozkuran.controller;
 
 import com.ozkuran.model.Announcement;
+import com.ozkuran.model.Product;
 import com.ozkuran.services.AnnouncementService;
+import com.ozkuran.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.data.domain.Page;
@@ -24,11 +26,20 @@ public class MainController {
         this.announcementService = announcementService;
     }
 
+    private ProductService productService;
+
+    @Autowired
+    public void setProductService(ProductService productService) {
+        this.productService = productService;
+    }
+
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model){
         Page<Announcement> page = announcementService.getLatestAnnouncements();
         model.addAttribute("latestannouncements", page.getContent());
+        Page<Product> page2 = productService.getLatestProducts();
+        model.addAttribute("latestproducts", page2.getContent());
         return "index2";
     }
 }
