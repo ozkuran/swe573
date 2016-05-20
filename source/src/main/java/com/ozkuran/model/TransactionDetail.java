@@ -7,7 +7,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import java.math.BigDecimal;
-import java.util.List;
 
 /**
  * Created by MahmutAli on 5/19/2016.
@@ -20,8 +19,8 @@ public class TransactionDetail {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @OneToMany(mappedBy = "transactionDetail")
-    private List<Product> products;
+    @ManyToOne
+    private Product product;
 
     @NotEmpty
     @ManyToOne
@@ -30,6 +29,10 @@ public class TransactionDetail {
     @NotNull
     @Min(0)
     private BigDecimal amount;
+
+    @NotNull
+    @Min(0)
+    private BigDecimal price;
 
 
     public Integer getId() {
@@ -40,12 +43,12 @@ public class TransactionDetail {
         this.id = id;
     }
 
-    public List<Product> getProducts() {
-        return products;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     public Transaction getTransaction() {
@@ -62,5 +65,13 @@ public class TransactionDetail {
 
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
     }
 }

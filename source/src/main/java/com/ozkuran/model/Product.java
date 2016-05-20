@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * Created by MahmutAli on 5/19/2016.
@@ -19,7 +20,7 @@ public class Product {
     private Integer version;
 
     private String description;
-    private String imageUrl;
+
     private BigDecimal price;
 
     @ManyToOne
@@ -31,8 +32,8 @@ public class Product {
     @ManyToOne
     private ProductType productType;
 
-    @ManyToOne
-    private TransactionDetail transactionDetail;
+    @OneToMany(mappedBy = "product")
+    private List<TransactionDetail> transactionDetails;
 
 
     @NotNull
@@ -61,14 +62,6 @@ public class Product {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
     }
 
     public BigDecimal getPrice() {
@@ -103,12 +96,12 @@ public class Product {
         this.productType = productType;
     }
 
-    public TransactionDetail getTransactionDetail() {
-        return transactionDetail;
+    public List<TransactionDetail> getTransactionDetails() {
+        return transactionDetails;
     }
 
-    public void setTransactionDetail(TransactionDetail transactionDetail) {
-        this.transactionDetail = transactionDetail;
+    public void setTransactionDetails(List<TransactionDetail> transactionDetails) {
+        this.transactionDetails = transactionDetails;
     }
 
     public String getPhotoURL() {

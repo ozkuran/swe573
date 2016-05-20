@@ -22,7 +22,7 @@ INSERT INTO product_type (id, name)
 INSERT INTO product_type (id, name)
      VALUES (4,"süt");
 
-
+DELETE FROM package_type;
 INSERT INTO package_type (id, name)
      VALUES (1, "kavanoz");
 
@@ -54,3 +54,28 @@ Toplanma yeri: Baraka (Kuzey Kampüs Shuttle durağının orada)
 26 Mart Cumartesi
 Saat: 09.30
 Siz de gelmek isterseniz cansuplati@gmail.com adresine mutlaka e-mail atın ki yer durumunu ayarlayabilelim :)","http://www.bukoop.org/wp-content/uploads/2016/03/MAV%C4%B0C%C4%B0FTL%C4%B0KAF%C4%B0S.jpg");
+
+
+DELETE FROM producer;
+INSERT INTO producer (id,name,photourl)
+VALUES (1, "Sındı Köyü Tarımsal Kalkınma Kooperatifi", "images/farm001.jpg");
+
+INSERT INTO producer (id,name,photourl)
+VALUES (2, "Urfa Kadın Kooperatifi", "images/farm002.jpg");
+
+INSERT INTO producer (id,name,photourl)
+VALUES (3, "Honaz Tarımsal Kalkınma Kooperatifi", "images/farm003.jpg");
+
+INSERT INTO producer (id,name,photourl)
+VALUES (4, "Vakıflı Köyü Tarımsal Kalkınma Kooperatifi", "images/farm001.jpg");
+
+INSERT INTO producer (id,name,photourl)
+VALUES (5, "Karaburun Kadın Kooperatifi", "images/farm002.jpg");
+
+INSERT INTO producer (id,name,photourl)
+VALUES (6, "Cevat Öztel", "images/farm006.jpg");
+
+DELETE FROM product;
+
+INSERT INTO product (id,package_type_id,producer_id,product_type_id,photourl,price)
+
