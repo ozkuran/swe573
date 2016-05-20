@@ -35,6 +35,12 @@ public class Announcement {
     @Type(type="text")
     private String content;
 
+
+    @NotNull
+    @NotEmpty
+    private String photoURL;
+
+
     public Integer getId() {
         return id;
     }
@@ -65,5 +71,13 @@ public class Announcement {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getPhotoURL() {
+        return photoURL;
+    }
+
+    public void setPhotoURL(String photoURL) {
+        this.photoURL = photoURL;
     }
 }

@@ -29,26 +29,28 @@ INSERT INTO package_type (id, name)
 INSERT INTO package_type (id, name)
      VALUES (2, "vakumlu poset");
 
-INSERT INTO announcement (title,date,content)
-     VALUES ("17 Mayıs Salı 15:30 Baraka buluşması","2016-05-13","31 Mayıs’ta gerçekleşecek Genel Kurul toplantımızdan önce bir araya geliyoruz. Bu sene nasıl geçmiş, gelirler-giderler dengesine ne olmuş, harika gönüllülük hikayeleriyle kaç nöbet kurtulmuş, ürünlerimiz, üreticilerimiz ve aklımıza gelen tüm soruları bir konuşalım diyerek 17 Mayıs Salı günü 15:30’da Bükoop Baraka’da toplanıyoruz. Herkesi bekleriz!");
 
-INSERT INTO announcement (title,date,content)
+DELETE FROM announcement;
+INSERT INTO announcement (title,date,content,photourl)
+     VALUES ("17 Mayıs Salı 15:30 Baraka buluşması","2016-05-13","31 Mayıs’ta gerçekleşecek Genel Kurul toplantımızdan önce bir araya geliyoruz. Bu sene nasıl geçmiş, gelirler-giderler dengesine ne olmuş, harika gönüllülük hikayeleriyle kaç nöbet kurtulmuş, ürünlerimiz, üreticilerimiz ve aklımıza gelen tüm soruları bir konuşalım diyerek 17 Mayıs Salı günü 15:30’da Bükoop Baraka’da toplanıyoruz. Herkesi bekleriz!","http://www.bukoop.org/wp-content/uploads/2016/05/Baraka_photoshop.jpg");
+
+INSERT INTO announcement (title,date,content,photourl)
 VALUES ("Doğayla dost olan küçük çiftçilerdir","2016-05-05","Bukoop’un da katıldığı FAO toplantısından haberler;
 http://www.birgun.net/haber-detay/dogayla-dost-olan-kucuk-ciftcilerdir-110965.html
 Program;
-http://2016.csoconsultation.org/pdf/agenda_en.pdf");
+http://2016.csoconsultation.org/pdf/agenda_en.pdf","http://www.bukoop.org/wp-content/uploads/2014/11/logo_placeholder.png");
 
 
-INSERT INTO announcement (title,date,content)
+INSERT INTO announcement (title,date,content,photourl)
 VALUES ("Greyfurt geldi!","2016-05-05","Köyceğiz’deki üreticimiz Alp Pir’den greyfurt Baraka’ya yeniden geldi!
 Mis gibi, kimyasalsız, bol vitaminli :) Yılın son güzel C vitaminlerini kaçırmayın!
 Baraka haftaiçi 13.00-13.30 ve 17.00- 17.30 arası gönüllüler sayesinde açık!
 Afiyetle,
-Bukoop!");
+Bukoop!","http://www.bukoop.org/wp-content/uploads/2016/05/IMG-20160428-WA0001_resized-1.jpg");
 
-INSERT INTO announcement (title,date,content)
+INSERT INTO announcement (title,date,content,photourl)
 VALUES ("Sakarya Gevye’ye Mavi Çiftlik’e gidiyoruz!","2016-03-09","Mis keçi peyniri ve serin dondurmasıyla tanıdığınız Mavi Çiftlik’i, üreticimiz Ali Kuşçu’yu ziyarete gidiyoruz.
 Toplanma yeri: Baraka (Kuzey Kampüs Shuttle durağının orada)
 26 Mart Cumartesi
 Saat: 09.30
-Siz de gelmek isterseniz cansuplati@gmail.com adresine mutlaka e-mail atın ki yer durumunu ayarlayabilelim :)");
+Siz de gelmek isterseniz cansuplati@gmail.com adresine mutlaka e-mail atın ki yer durumunu ayarlayabilelim :)","http://www.bukoop.org/wp-content/uploads/2016/03/MAV%C4%B0C%C4%B0FTL%C4%B0KAF%C4%B0S.jpg");

@@ -1,6 +1,9 @@
 package com.ozkuran.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 /**
@@ -31,29 +34,17 @@ public class Product {
     @ManyToOne
     private TransactionDetail transactionDetail;
 
-    public Producer getProducer() {
-        return producer;
+
+    @NotNull
+    @NotEmpty
+    private String photoURL;
+
+    public Integer getId() {
+        return id;
     }
 
-    public void setProducer(Producer producer) {
-        this.producer = producer;
-    }
-
-    public PackageType getPackageType() {
-        return packageType;
-    }
-
-    public void setPackageType(PackageType packageType) {
-        this.packageType = packageType;
-    }
-
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public Integer getVersion() {
@@ -64,12 +55,12 @@ public class Product {
         this.version = version;
     }
 
-    public Integer getId() {
-        return id;
+    public String getDescription() {
+        return description;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getImageUrl() {
@@ -88,5 +79,43 @@ public class Product {
         this.price = price;
     }
 
+    public Producer getProducer() {
+        return producer;
+    }
 
+    public void setProducer(Producer producer) {
+        this.producer = producer;
+    }
+
+    public PackageType getPackageType() {
+        return packageType;
+    }
+
+    public void setPackageType(PackageType packageType) {
+        this.packageType = packageType;
+    }
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
+    public TransactionDetail getTransactionDetail() {
+        return transactionDetail;
+    }
+
+    public void setTransactionDetail(TransactionDetail transactionDetail) {
+        this.transactionDetail = transactionDetail;
+    }
+
+    public String getPhotoURL() {
+        return photoURL;
+    }
+
+    public void setPhotoURL(String photoURL) {
+        this.photoURL = photoURL;
+    }
 }
