@@ -1,7 +1,10 @@
 package com.ozkuran.controller;
 
 import com.ozkuran.model.Product;
+import com.ozkuran.services.PackageTypeService;
+import com.ozkuran.services.ProducerService;
 import com.ozkuran.services.ProductService;
+import com.ozkuran.services.ProductTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,6 +24,28 @@ public class ProductController {
         this.productService = productService;
     }
 
+    private ProductTypeService producttypeService;
+
+    @Autowired
+    public void setProductTypeService(ProductTypeService producttypeService) {
+        this.producttypeService = producttypeService;
+    }
+
+    private ProducerService producerService;
+
+    @Autowired
+    public void setProducerService(ProducerService producerService) {
+        this.producerService = producerService;
+    }
+
+    private PackageTypeService packagetypeService;
+
+    @Autowired
+    public void setPackageTypeService(PackageTypeService packagetypeService) {
+        this.packagetypeService = packagetypeService;
+    }
+
+
     @RequestMapping(value = "/products", method = RequestMethod.GET)
     public String list(Model model){
         model.addAttribute("products", productService.listAllProducts());
@@ -36,6 +61,9 @@ public class ProductController {
     @RequestMapping("product/edit/{id}")
     public String edit(@PathVariable Integer id, Model model){
         model.addAttribute("product", productService.getProductById(id));
+        model.addAttribute("productTypes", producttypeService.listAllProductType());
+        model.addAttribute("packageTypes", packagetypeService.listAllPackageTypes());
+        model.addAttribute("producers", producerService.listAllProducers());
         return "productform";
     }
 
