@@ -1,3 +1,6 @@
+
+DELETE FROM role;
+
 INSERT INTO role (id, name)
      VALUES (1,"admin");
 
@@ -77,7 +80,7 @@ INSERT INTO producer (id,name,photourl)
 VALUES (5, "Karaburun Kadın Kooperatifi", "/images/farm002.jpg");
 
 INSERT INTO producer (id,name,photourl)
-VALUES (6, "Cevat Öztel", "/images/farm006.jpg");
+VALUES (6, "Cevat Öztel", "/images/farm003.jpg");
 
 DELETE FROM product;
 
@@ -93,3 +96,32 @@ VALUES (3,"Süt",1,2,4,"/images/milk.jpg",10);
 INSERT INTO product (id,description, package_type_id,producer_id,product_type_id,photourl,price)
 VALUES (4,"Süt",2,3,4,"/images/blackolive.jpg",10);
 
+
+DELETE FROM member;
+
+INSERT INTO member (id,role_id, email,name,lastname,membership,phonenumber,username,password)
+    VALUES (1,3,"a@a.com","a","a",TRUE,"123456789","a","12345678");
+
+INSERT INTO member (id,role_id, email,name,lastname,membership,phonenumber,username,password)
+VALUES (2,3,"b@b.com","b","b",TRUE,"123456789","b","12345678");
+
+INSERT INTO member (id,role_id, email,name,lastname,membership,phonenumber,username,password)
+VALUES (3,3,"c@c.com","c","c",TRUE,"123456789","c","12345678");
+
+
+DELETE FROM transaction;
+
+INSERT INTO transaction (id,buyer_id,seller_id,date)
+    VALUES (1,1,2,"2016-01-01");
+
+INSERT INTO transaction (id,buyer_id,seller_id,date)
+VALUES (2,1,2,"2016-01-01");
+
+
+DELETE FROM transaction_detail;
+
+INSERT INTO transaction_detail (id,product_id,transaction_id,amount,price)
+VALUES (1,1,1,10,10);
+
+INSERT INTO transaction_detail (id,product_id,transaction_id,amount,price)
+VALUES (2,2,1,5,10);
