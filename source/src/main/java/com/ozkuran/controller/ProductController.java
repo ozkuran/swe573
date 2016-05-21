@@ -70,6 +70,9 @@ public class ProductController {
     @RequestMapping("product/new")
     public String newProduct(Model model){
         model.addAttribute("product", new Product());
+        model.addAttribute("productTypes", producttypeService.listAllProductType());
+        model.addAttribute("packageTypes", packagetypeService.listAllPackageTypes());
+        model.addAttribute("producers", producerService.listAllProducers());
         return "productform";
     }
 
