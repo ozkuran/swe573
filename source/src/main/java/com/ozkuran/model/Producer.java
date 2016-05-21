@@ -17,10 +17,8 @@ public class Producer {
     private int id;
     private String name;
 
-
     @OneToMany(mappedBy = "producer")
     private List<Product> products;
-
 
     @NotNull
     @NotEmpty

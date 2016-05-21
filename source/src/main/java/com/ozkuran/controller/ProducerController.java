@@ -23,13 +23,13 @@ public class ProducerController {
 
     @RequestMapping(value = "/producers", method = RequestMethod.GET)
     public String list(Model model){
-        model.addAttribute("products", producerService.listAllProducers());
+        model.addAttribute("producers", producerService.listAllProducers());
         return "producers";
     }
 
     @RequestMapping("producer/{id}")
     public String showProduct(@PathVariable Integer id, Model model){
-        model.addAttribute("product", producerService.getProducerById(id));
+        model.addAttribute("producer", producerService.getProducerById(id));
         return "producer";
     }
 

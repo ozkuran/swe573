@@ -55,16 +55,21 @@
 
 
 <section class="main-section" id="haberler"><!--main-section-start-->
-    <div class="container">
-        <h2><span th:text="${producer.name}">text</span></h2>
-        <div class="row">
-            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                <div  style="width: 400px; height: 300px;">
-                    <img th:src="${producer.photoURL}" alt=""/>
-                </div>
-            </figure>
+    <form  method="post" action="#" th:object="${producer}" th:action="@{'/producer'}">
+        <fieldset>
+            <div>
+                <p><input type="hidden" th:field="*{id}" th:value="*{id}"/></p>
+                <p><label for="name">Üreticinin Adı:</label>
+                    <input type="text" id="name" name="name" th:field="*{name}" /></p>
+                <p><label for="foto">Fotoğraf:</label>
+                    <input type="text" id="foto" name="foto" th:field="*{photoURL}" /></p>
+            </div>
+        </fieldset>
+        <div class="submit">
+            <button type="submit" name="save">Kaydet</button>
         </div>
-    </div>
+
+    </form>
 </section><!--main-section-end-->
 
 
