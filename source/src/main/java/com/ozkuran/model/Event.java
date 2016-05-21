@@ -22,8 +22,8 @@ public class Event {
     private String name;
 
     @NotNull
-    @NotEmpty
-    @DateTimeFormat
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
 
     @NotNull

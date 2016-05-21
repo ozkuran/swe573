@@ -1,6 +1,10 @@
 package com.ozkuran.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -13,6 +17,11 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
+
+    @NotNull
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date date;
 
     @OneToMany(mappedBy = "transaction")
     private List<TransactionDetail> transactionDetails;

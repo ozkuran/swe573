@@ -1,7 +1,7 @@
 package com.ozkuran.model;
 
 import com.sun.istack.internal.NotNull;
-import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
@@ -21,7 +21,9 @@ public class Inventory {
     @ManyToOne
     private Product product;
 
-    @NotEmpty
+    @javax.validation.constraints.NotNull
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
 
     @NotNull
