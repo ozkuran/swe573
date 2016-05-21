@@ -1,13 +1,13 @@
 package com.ozkuran.repositories;
 
-import com.ozkuran.model.Event;
+import com.ozkuran.model.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by MahmutAli on 5/19/2016.
+ * Created by MahmutAli on 5/21/2016.
  */
 
 @Repository
-public interface EventRepository extends JpaRepository<Event, Integer> {
+public interface InventoryRepository  extends JpaRepository<Inventory, Integer> {
 }
