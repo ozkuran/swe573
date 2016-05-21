@@ -1,7 +1,7 @@
 package com.ozkuran.repositories;
 
 import com.ozkuran.model.Producer;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface ProducerRepository extends CrudRepository<Producer, Integer> {
+public interface ProducerRepository extends JpaRepository<Producer, Integer> {
 }
