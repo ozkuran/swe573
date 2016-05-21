@@ -37,33 +37,16 @@
 
 </head>
 <body>
-<div style="overflow:hidden;">
-    <header class="header" id="header">
-        <div class="container">
-            <figure class="logo animated fadeInDown delay-07s">
-                <a href="#"><img src="img2/logo.png" alt=""/></a>
-            </figure>
-            <h1 class="animated fadeInDown delay-07s">BUKOOP</h1>
-            <ul class="we-create animated fadeInUp delay-1s">
-                <li>Bogaziçi Mensupları Tarım Kooperatifi</li>
-            </ul>
-            <a class="link animated fadeInUp delay-1s" href="#haberler">Baslayin</a>
-        </div>
-    </header>
-</div>
-
-
-
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
     <div class="container">
         <ul class="main-nav">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#haberler">Services</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#header">Ana Sayfa</a></li>
+            <li><a href="#haberler">Haberler</a></li>
+            <li><a href="#Products">Ürünler</a></li>
             <li class="small-logo"><a href="#header"><img src="img2/small-logo.png" alt=""/></a></li>
-            <li><a href="#client">Clients</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#client">Üreticiler</a></li>
+            <li><a href="#team">Bültenler</a></li>
+            <li><a href="#contact">İletişim</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -98,10 +81,10 @@
 </section><!--main-section-end-->
 
 
-<section class="main-section paddind" id="Product"><!--main-section-start-->
+<section class="main-section paddind" id="Products"><!--main-section-start-->
     <div class="container">
-        <h2>Product</h2>
-        <h6>Fresh product of designs that will keep you wanting more.</h6>
+        <h2>Products</h2>
+        <h6>Üreticilerimizden taptaze ürünler.</h6>
         <div class="productFilter">
             <ul class="Product-nav wow fadeIn delay-02s">
                 <li><a href="#" data-filter="*" class="current" >All</a></li>
@@ -112,106 +95,19 @@
             </ul>
         </div>
     </div>
-    <div th:each="product : ${latestproducts}">
-        <div class="productContainer wow fadeInUp delay-04s">
-            <div class=" Product-box" th:classappend="${product.productType.name}">
-                <a href="#"><img th:src="${product.photoURL}" alt=""/></a>
-                <h3><span th:text="${product.description}">text</span></h3>
-                <p><span th:text="${product.price}">text</span> TRY</p>
-            </div>
+    <div class="productContainer wow fadeInUp delay-04s" th:each="product : ${latestproducts}">
+        <div class=" Product-box isotope-item" th:classappend="${product.productType.name}">
+            <a href="#"><img th:src="${product.photoURL}" alt=""/></a>
+            <h3><span th:text="${product.description}">text</span></h3>
+            <p><span th:text="${product.price}">text</span> TRY</p>
         </div>
     </div>
 </section><!--main-section-end-->
 
 
-<section class="main-section client-part" id="client"><!--main-section client-part-start-->
-    <div class="container">
-        <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="client-part-haead wow fadeInDown delay-05">It was a pleasure to work with the guys at Knight Studio. They made sure
-                    we were well fed and drunk all the time!</p>
-            </div>
-        </div>
-        <ul class="client wow fadeIn delay-05s">
-            <li><a href="#">
-                <img src="img2/client-pic1.jpg" alt=""/>
-                <h3>James Bond</h3>
-                <span>License To Drink Inc.</span>
-            </a></li>
-        </ul>
-    </div>
-</section><!--main-section client-part-end-->
-<div class="c-logo-part"><!--c-logo-part-start-->
-    <div class="container">
-        <ul>
-            <li><a href="#"><img src="img2/c-liogo1.png" alt=""/></a></li>
-            <li><a href="#"><img src="img2/c-liogo2.png" alt=""/></a></li>
-            <li><a href="#"><img src="img2/c-liogo3.png" alt=""/></a></li>
-            <li><a href="#"><img src="img2/c-liogo4.png" alt=""/></a></li>
-            <li><a href="#"><img src="img2/c-liogo5.png" alt=""/></a></li>
-        </ul>
-    </div>
-</div><!--c-logo-part-end-->
-<section class="main-section team" id="team"><!--main-section team-start-->
-    <div class="container">
-        <h2>team</h2>
-        <h6>Take a closer look into our amazing team. We won’t bite.</h6>
-        <div class="team-leader-block clearfix">
-            <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-03s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img2/team-leader-pic1.jpg" alt=""/>
-                    <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
-                        <li><a href="#" class="fa-facebook"></a></li>
-                        <li><a href="#" class="fa-pinterest"></a></li>
-                        <li><a href="#" class="fa-google-plus"></a></li>
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-03s">Walter White</h3>
-                <span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-                <p class="wow fadeInDown delay-03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
-            </div>
-            <div class="team-leader-box">
-                <div class="team-leader  wow fadeInDown delay-06s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img2/team-leader-pic2.jpg" alt=""/>
-                    <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
-                        <li><a href="#" class="fa-facebook"></a></li>
-                        <li><a href="#" class="fa-pinterest"></a></li>
-                        <li><a href="#" class="fa-google-plus"></a></li>
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-06s">Jesse Pinkman</h3>
-                <span class="wow fadeInDown delay-06s">Product Manager</span>
-                <p class="wow fadeInDown delay-06s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
-            </div>
-            <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-09s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img2/team-leader-pic3.jpg" alt=""/>
-                    <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
-                        <li><a href="#" class="fa-facebook"></a></li>
-                        <li><a href="#" class="fa-pinterest"></a></li>
-                        <li><a href="#" class="fa-google-plus"></a></li>
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-09s">Skyler white</h3>
-                <span class="wow fadeInDown delay-09s">Accountant</span>
-                <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
-            </div>
-        </div>
-    </div>
-</section><!--main-section team-end-->
-
-
-
 <section class="business-talking"><!--business-talking-start-->
     <div class="container">
-        <h2>Let’s Talk Business.</h2>
+        <h2>İletişim</h2>
     </div>
 </section><!--business-talking-end-->
 <div class="container">
@@ -220,24 +116,24 @@
         <div class="row">
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
                 <div class="contact-info-box address clearfix">
-                    <h3><i class=" icon-map-marker"></i>Address:</h3>
-                    <span>308 Negra Arroyo Lane<br/>Albuquerque, New Mexico, 87111.</span>
+                    <h3><i class=" icon-map-marker"></i>Adres:</h3>
+                    <span>Boğaziçi Mensupları Tüketim Kooperatifi<br/>Boğaziçi Üniversitesi Kuzey Kampus 34342 Sarıyer/ İstanbul</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
-                    <h3><i class="fa-phone"></i>Phone:</h3>
-                    <span>1-800-BOO-YAHH</span>
+                    <h3><i class="fa-phone"></i>Tarif:</h3>
+                    <span>Kuzey Kampüs otoparka giderken sağda, eski Kuzey Yadyok’un karşısında, Kuzey Kampüs B kapısından yokuş aşağı inince tam karşınıza çıkan baraka</span>
                 </div>
                 <div class="contact-info-box email clearfix">
-                    <h3><i class="fa-pencil"></i>email:</h3>
-                    <span>hello@knightstudios.com</span>
+                    <h3><i class="fa-pencil"></i>Eposta:</h3>
+                    <span>koop@boun.edu.tr</span>
                 </div>
                 <div class="contact-info-box hours clearfix">
-                    <h3><i class="fa-clock-o"></i>Hours:</h3>
-                    <span><strong>Monday - Thursday:</strong> 10am - 6pm<br/><strong>Friday:</strong> People work on Fridays now?<br/><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+                    <h3><i class="fa-clock-o"></i>Vergi Dairesi/No:</h3>
+                    <span><strong>Sarıyer:</strong> 179 059 7959</span>
                 </div>
                 <ul class="social-link">
-                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
-                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="http://www.twitter.com/bukoop"><i class="fa-twitter"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/pages/BuKoop/226266220789030"><i class="fa-facebook"></i></a></li>
                     <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
                     <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
                     <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
@@ -245,10 +141,7 @@
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                 <div class="form">
-                    <input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-                    <input class="input-text" type="text" name="" value="Your E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-                    <textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                    <input class="input-btn" type="submit" value="send message"/>
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:500px;'><div id='gmap_canvas' style='height:500px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://termsandcondiitionssample.com">terms and conditions generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(41.0872751,29.04392299999995),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.0872751,29.04392299999995)});infowindow = new google.maps.InfoWindow({content:'<strong>BüKoop</strong><br/>41.087227, 29.043997<br/>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
                 </div>
             </div>
         </div>
@@ -257,7 +150,7 @@
 <footer class="footer">
     <div class="container">
         <div class="footer-logo"><a href="#"><img src="img2/footer-logo.png" alt=""/></a></div>
-        <span class="copyright">Copyright © 2015 | <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste</span>
+        <span class="copyright">Copyright © 2014-2016 | BüKoop</span>
     </div>
     <!--
         All links in the footer should remain intact.
@@ -316,7 +209,7 @@
     $(window).load(function(){
 
 
-        var $container = $('.portfolioContainer'),
+        var $container = $('.productContainer'),
                 $body = $('body'),
                 colW = 375,
                 columns = null;
@@ -342,8 +235,8 @@
             }
 
         }).smartresize(); // trigger resize to set container width
-        $('.portfolioFilter a').click(function(){
-            $('.portfolioFilter .current').removeClass('current');
+        $('.productFilter a').click(function(){
+            $('.productFilter .current').removeClass('current');
             $(this).addClass('current');
 
             var selector = $(this).attr('data-filter');

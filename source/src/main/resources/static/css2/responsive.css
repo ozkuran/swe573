@@ -10,7 +10,7 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
-	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+	/*.productContainer{ width:800px; margin:0px auto !important; } */
 	
 }	
    
@@ -36,8 +36,8 @@
 	
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
-	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
-	.Portfolio-box{ height:250px;}*/
+	/*.productContainer{ width:750px; margin:0px auto !important; }
+	.Product-box{ height:250px;}*/
 	
 	 
 	
@@ -80,13 +80,13 @@
 	.link{ font-size:14px; padding:10px 25px;}
 	.logo{ width:100px;}
 	.main-section.contact{ background-size:contain;}
-	.Portfolio-nav li a{ padding:5px 16px;}
-	.Portfolio-nav li{ display:block;}
+	.Product-nav li a{ padding:5px 16px;}
+	.Product-nav li{ display:block;}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
-	.Portfolio-box{}
-	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+	.Product-box{}
+	.productContainer{ width:350px; margin:0px auto !important; } */
 	
 	
 }
@@ -98,8 +98,8 @@
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
-	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
+	.Product-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
+	.Product-box img { max-width:100%;}
+	.productContainer{ width:280px !important; margin:0 auto !important }
 	
 }
