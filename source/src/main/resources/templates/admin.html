@@ -40,12 +40,12 @@
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
     <div class="container">
         <ul class="main-nav">
-            <li><a href="index">Anasayfa</a></li>
+            <li><a href="index">Ana Sayfa</a></li>
             <li><a href="announcements">Haberler</a></li>
             <li><a href="products">Ürünler</a></li>
             <li class="small-logo"><a href="index"><img src="img2/small-logo.png" alt=""/></a></li>
             <li><a href="producers">Üreticiler</a></li>
-            <li><a href="bulletins">Bülten</a></li>
+            <li><a href="bulletins">Bültenler</a></li>
             <li><a href="admin">Yönetim</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
@@ -55,37 +55,90 @@
 
 
 <section class="main-section" id="haberler"><!--main-section-start-->
-    <form  method="post" action="#" th:object="${product}" th:action="@{'/product'}">
-        <fieldset>
-            <div>
-                <p><input type="hidden" th:field="*{id}" th:value="*{id}"/></p>
-                <p><label for="name">Ürün Adı:</label>
-                <input type="text" id="name" name="name" th:field="*{description}" /></p>
-                <p><label for="name">Ürün Tipi:</label><select th:field="*{productType}">
-                    <option th:each="producttype : ${productTypes}"
-                            th:value="${producttype.id}"
-                            th:text="${producttype.name}">Wireframe</option>
-                </select></p>
-                <p><label for="price">Fiyat:</label><input type="text" id="price" name="price" th:field="*{price}" /></p>
-                <p><label for="name">Paket Tipi:</label><select th:field="*{packageType}">
-                    <option th:each="packagetype : ${packageTypes}"
-                            th:value="${packagetype.id}"
-                            th:text="${packagetype.name}">Wireframe</option>
-                </select></p>
-                <p><label for="name">Üretici:</label><select th:field="*{producer}">
-                    <option th:each="producer : ${producers}"
-                            th:value="${producer.id}"
-                            th:text="${producer.name}">Wireframe</option>
-                </select></p>
-                <p><label for="foto">Fotoğraf:</label>
-                    <input type="text" id="foto" name="foto" th:field="*{photoURL}" /></p>
+    <div class="container">
+        <h2>Yönetim</h2>
+        <div>
+            <h3>Duyurular</h3>
+            <div th:each="announcement : ${announcements}">
+                <div>
+                    <span th:text="${announcement.title}">Text</span>
+                    <p><a th:href="@{'/announcement/edit/'+ ${announcement.id}}">Düzenle</a></p>
+                </div>
             </div>
-        </fieldset>
-        <div class="submit">
-            <button type="submit" name="save">Kaydet</button>
         </div>
-
-    </form>
+        <div>
+            <h3>Bültenler</h3>
+            <div th:each="bulletin : ${bulletins}">
+                <div>
+                    <span th:text="${bulletin.name}">Text</span>
+                    <p><a th:href="@{'/bulletin/edit/'+ ${bulletin.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Olaylar</h3>
+            <div th:each="event : ${events}">
+                <div>
+                    <span th:text="${event.name}">Text</span>
+                    <p><a th:href="@{'/event/edit/'+ ${event.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Üyeler</h3>
+            <div th:each="member: ${members}">
+                <div>
+                    <span th:text="${member.name} + ' ' + ${member.lastname}">Text</span>
+                    <p><a th:href="@{'/member/edit/'+ ${member.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Paket Tipleri</h3>
+            <div th:each="packagetype: ${packagetypes}">
+                <div>
+                    <span th:text="${packagetype.name}">Text</span>
+                    <p><a th:href="@{'/packagetype/edit/'+ ${packagetype.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Üreticiler</h3>
+            <div th:each="producer: ${producers}">
+                <div>
+                    <span th:text="${producer.name}">Text</span>
+                    <p><a th:href="@{'/producer/edit/'+ ${producer.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Ürünler</h3>
+            <div th:each="product: ${products}">
+                <div>
+                    <span th:text="${product.description}">Text</span>
+                    <p><a th:href="@{'/product/edit/'+ ${product.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Ürün Tipleri</h3>
+            <div th:each="producttype: ${producttypes}">
+                <div>
+                    <span th:text="${producttype.name}">Text</span>
+                    <p><a th:href="@{'/producttype/edit/'+ ${producttype.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Görevler</h3>
+            <div th:each="role: ${roles}">
+                <div>
+                    <span th:text="${role.name}">Text</span>
+                    <p><a th:href="@{'/role/edit/'+ ${role.id}}">Düzenle</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section><!--main-section-end-->
 
 
