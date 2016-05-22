@@ -66,7 +66,7 @@
                     <div class="service-list-col2">
                         <p><span th:text="${transaction.buyer.name} + ' ' + ${transaction.buyer.lastname}">text</span></p>
                         <p><span th:text="${transaction.seller.name} + ' ' + ${transaction.seller.lastname}">text</span></p>
-                        <div class="producerContainer wow fadeInUp delay-04s" th:each="transactiondetail : ${transaction.transactionDetails}">
+                        <div class="producerContainer wow fadeInUp delay-04s" th:each="transactiondetail : ${transactionDetail}">
                             <p><span th:text="${transactiondetail.product.description}">text</span></p>
                             <p><span th:text="${transactiondetail.amount}">text</span></p>
                             <p><span th:text="${transactiondetail.price}">text</span></p>

@@ -53,34 +53,14 @@
 </nav><!--main-nav-end-->
 
 
+
 <section class="main-section" id="haberler"><!--main-section-start-->
-    <form  method="post" action="#" th:object="${transaction}" th:action="@{'/transaction'}">
+    <form  method="post" action="#" th:object="${role}" th:action="@{'/role'}">
         <fieldset>
             <div>
                 <p><input type="hidden" th:field="*{id}" th:value="*{id}"/></p>
-                <p><label for="date">İşlem Tarihi:</label>
-                    <input type="date" id="date" name="date" placeholder="İşlem Tarihi" th:field="*{date}" th:value="${transaction.date != null} ? ${#dates.format(transaction.date, 'dd-MM-yyyy')} : ${#dates.format(#dates.createNow(), 'dd-MM-yyyy')}" /></p>
-                <p><label>Alıcı:</label><select th:field="*{buyer}">
-                    <option th:each="member : ${members}"
-                            th:value="${member.id}"
-                            th:text="${member.name} + ' ' + ${member.lastname}">Wireframe</option>
-                </select></p>
-                <p><label>Alıcı:</label><select th:field="*{seller}">
-                    <option th:each="member : ${members}"
-                            th:value="${member.id}"
-                            th:text="${member.name} + ' ' + ${member.lastname}">Wireframe</option>
-                </select></p>
-                <p><span th:each="transactiondetail : ${transactiondetails}">
-			        <br/><span th:text="${transactiondetail.product.description}" /> - <span th:text="${transactiondetail.amount}" />
-		        </span></p>
-                <form th:action="@{/transaction/{id}/transactiondetails(id=${transaction.id})}" method="post" enctype="multipart/form-data" >
-                    <select>
-                        <option th:each="product : ${products}"
-                                th:value="${product.id}"
-                                th:text="${product.description}">Product</option>
-                    </select>
-                    <input type="submit" value="Add product"/>
-                </form>
+                <p><label for="name">Rol :</label>
+                    <input type="text" id="name" name="name" th:field="*{name}" /></p>
             </div>
         </fieldset>
         <div class="submit">
