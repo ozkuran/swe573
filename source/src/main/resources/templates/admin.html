@@ -59,6 +59,7 @@
         <h2>Yönetim</h2>
         <div>
             <h3>Duyurular</h3>
+            <div><a href="announcement/new">Yeni</a></div>
             <div th:each="announcement : ${announcements}">
                 <div>
                     <span th:text="${announcement.title}">Text</span>
@@ -68,6 +69,7 @@
         </div>
         <div>
             <h3>Bültenler</h3>
+            <div><a href="bulletin/new">Yeni</a></div>
             <div th:each="bulletin : ${bulletins}">
                 <div>
                     <span th:text="${bulletin.name}">Text</span>
@@ -77,6 +79,7 @@
         </div>
         <div>
             <h3>Olaylar</h3>
+            <div><a href="event/new">Yeni</a></div>
             <div th:each="event : ${events}">
                 <div>
                     <span th:text="${event.name}">Text</span>
@@ -86,6 +89,7 @@
         </div>
         <div>
             <h3>Üyeler</h3>
+            <div><a href="member/new">Yeni</a></div>
             <div th:each="member: ${members}">
                 <div>
                     <span th:text="${member.name} + ' ' + ${member.lastname}">Text</span>
@@ -95,6 +99,7 @@
         </div>
         <div>
             <h3>Paket Tipleri</h3>
+            <div><a href="packagetype/new">Yeni</a></div>
             <div th:each="packagetype: ${packagetypes}">
                 <div>
                     <span th:text="${packagetype.name}">Text</span>
@@ -104,6 +109,7 @@
         </div>
         <div>
             <h3>Üreticiler</h3>
+            <div><a href="producer/new">Yeni</a></div>
             <div th:each="producer: ${producers}">
                 <div>
                     <span th:text="${producer.name}">Text</span>
@@ -113,6 +119,7 @@
         </div>
         <div>
             <h3>Ürünler</h3>
+            <div><a href="product/new">Yeni</a></div>
             <div th:each="product: ${products}">
                 <div>
                     <span th:text="${product.description}">Text</span>
@@ -122,6 +129,7 @@
         </div>
         <div>
             <h3>Ürün Tipleri</h3>
+            <div><a href="producttype/new">Yeni</a></div>
             <div th:each="producttype: ${producttypes}">
                 <div>
                     <span th:text="${producttype.name}">Text</span>
@@ -131,6 +139,7 @@
         </div>
         <div>
             <h3>Görevler</h3>
+            <div><a href="role/new">Yeni</a></div>
             <div th:each="role: ${roles}">
                 <div>
                     <span th:text="${role.name}">Text</span>
