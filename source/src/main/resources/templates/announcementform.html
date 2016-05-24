@@ -62,7 +62,7 @@
                 <p><label for="name">Duyuru Başlığı:</label>
                     <input type="text" id="name" name="name" th:field="*{title}" /></p>
                 <p><label for="date">Duyuru Tarihi:</label>
-                    <input type="date" id="date" name="date" placeholder="Duyuru Tarihi" th:field="*{date}" th:value="${#dates.format(announcement.date, 'dd-MM-yyyy')}" /></p>
+                    <input type="date" id="date" name="date" placeholder="Duyuru Tarihi" th:field="*{date}" th:value="${announcement.date != null} ? ${#dates.format(announcement.date, 'dd-MM-yyyy')} : ${#dates.format(#dates.createNow(), 'dd-MM-yyyy')}" /></p>
                 <p><label for="content">Duyuru Tarihi:</label>
                     <input type="text" id="content" name="content" th:field="*{content}" /></p>
                 <p><label for="foto">Fotoğraf:</label>
