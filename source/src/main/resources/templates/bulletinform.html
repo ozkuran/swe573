@@ -55,18 +55,16 @@
 
 
 <section class="main-section" id="haberler"><!--main-section-start-->
-    <form  method="post" action="#" th:object="${announcement}" th:action="@{'/announcement'}">
+    <form  method="post" action="#" th:object="${bulletin}" th:action="@{'/bulletin'}">
         <fieldset>
             <div>
                 <p><input type="hidden" th:field="*{id}" th:value="*{id}"/></p>
-                <p><label for="name">Duyuru Başlığı:</label>
-                    <input type="text" id="name" name="name" th:field="*{title}" /></p>
-                <p><label for="date">Duyuru Tarihi:</label>
-                    <input type="date" id="date" name="date" placeholder="Duyuru Tarihi" th:field="*{date}" th:value="${announcement.date != null} ? ${#dates.format(announcement.date, 'dd-MM-yyyy')} : ${#dates.format(#dates.createNow(), 'dd-MM-yyyy')}" /></p>
-                <p><label for="content">Duyuru İçeriği:</label>
-                    <input type="text" id="content" name="content" th:field="*{content}" /></p>
-                <p><label for="foto">Fotoğraf:</label>
-                    <input type="text" id="foto" name="foto" th:field="*{photoURL}" /></p>
+                <p><label for="name">Bülten Başlığı:</label>
+                    <input type="text" id="name" name="name" th:field="*{name}" /></p>
+                <p><label for="date">Bülten Tarihi:</label>
+                    <input type="date" id="date" name="date" placeholder="Duyuru Tarihi" th:field="*{date}" th:value="${bulletin.date != null} ? ${#dates.format(bulletin.date, 'dd-MM-yyyy')} : ${#dates.format(#dates.createNow(), 'dd-MM-yyyy')}" /></p>
+                <p><label for="content">Dosya Adresi:</label>
+                    <input type="text" id="content" name="content" th:field="*{fileName}" /></p>
             </div>
         </fieldset>
         <div class="submit">

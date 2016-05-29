@@ -53,27 +53,29 @@
 </nav><!--main-nav-end-->
 
 
-
-<section class="main-section" id="haberler"><!--main-section-start-->
-    <form  method="post" action="#" th:object="${announcement}" th:action="@{'/announcement'}">
-        <fieldset>
-            <div>
-                <p><input type="hidden" th:field="*{id}" th:value="*{id}"/></p>
-                <p><label for="name">Duyuru Başlığı:</label>
-                    <input type="text" id="name" name="name" th:field="*{title}" /></p>
-                <p><label for="date">Duyuru Tarihi:</label>
-                    <input type="date" id="date" name="date" placeholder="Duyuru Tarihi" th:field="*{date}" th:value="${announcement.date != null} ? ${#dates.format(announcement.date, 'dd-MM-yyyy')} : ${#dates.format(#dates.createNow(), 'dd-MM-yyyy')}" /></p>
-                <p><label for="content">Duyuru İçeriği:</label>
-                    <input type="text" id="content" name="content" th:field="*{content}" /></p>
-                <p><label for="foto">Fotoğraf:</label>
-                    <input type="text" id="foto" name="foto" th:field="*{photoURL}" /></p>
+<section class="main-section paddind" id="Products"><!--main-section-start-->
+    <div class="container">
+        <h2>Bültenler</h2>
+        <h6>Kooperatifimizden bültenler.</h6>
+    </div>
+    <div class="producerContainer wow fadeInUp delay-04s" th:each="bulletin : ${bulletins}">
+        <div class="container">
+            <h2><span th:text="${bulletin.name}">text</span></h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+                    <div class="service-list">
+                        <div class="service-list-col1">
+                            <i class="fa-paw"></i>
+                        </div>
+                        <div class="service-list-col2">
+                            <h3><span th:text="${bulletin.date}">text</span></h3>
+                            <p><span th:text="${bulletin.fileName}">text</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </fieldset>
-        <div class="submit">
-            <button type="submit" name="save">Kaydet</button>
         </div>
-
-    </form>
+    </div>
 </section><!--main-section-end-->
 
 
@@ -139,7 +141,7 @@
     $(window).load(function(){
 
 
-        var $container = $('.productContainer'),
+        var $container = $('.producerContainer'),
                 $body = $('body'),
                 colW = 375,
                 columns = null;
@@ -165,8 +167,8 @@
             }
 
         }).smartresize(); // trigger resize to set container width
-        $('.productFilter a').click(function(){
-            $('.productFilter .current').removeClass('current');
+        $('.producerFilter a').click(function(){
+            $('.producerFilter .current').removeClass('current');
             $(this).addClass('current');
 
             var selector = $(this).attr('data-filter');

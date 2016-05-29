@@ -3,11 +3,14 @@ package com.ozkuran.model;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by MahmutAli on 5/22/2016.
  */
 public class EventTypeTest {
+
+
     @Before
     public void setUp() throws Exception {
 
@@ -20,7 +23,10 @@ public class EventTypeTest {
 
     @Test
     public void getId() throws Exception {
-
+        EventType et = new EventType();
+        et.setId(1);
+        et.setName("Toplanti");
+        assertEquals((Integer) 1,et.getId());
     }
 
     @Test
